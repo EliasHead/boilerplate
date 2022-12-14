@@ -1,5 +1,5 @@
 import type { AppProps } from 'next/app'
-import { Navbar } from '../components/Navbar'
+import Layout from '../components/Layout'
 
 import { globalStyles } from '../styles/global'
 
@@ -8,8 +8,9 @@ globalStyles()
 export default function App({ Component, pageProps }: AppProps) {
   return (
     <>
-      <Navbar />
-      <Component {...pageProps} />
+      <Layout>
+        <Component {...pageProps} />
+      </Layout>
     </>
   )
 }
