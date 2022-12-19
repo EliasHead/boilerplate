@@ -1,3 +1,10 @@
+## Componets
+* Layout
+* Navbar
+
+## proximos passos
+* menu mobilie
+
 ## Getting Started
 
 Run the following command on your local environment:

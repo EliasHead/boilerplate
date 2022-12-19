@@ -21,6 +21,8 @@ export const {
 
       green500: '#00875f',
       green300: '#00b37e',
+
+      zinc800: '#27272a',
     },
     fontSizes: {
       md: '1.125rem',
@@ -30,9 +32,8 @@ export const {
     },
   },
   media: {
-    bp1: 'screen and (max-width: 768px)',
-    bp2: 'screen and (max-width: 640px)',
-    bp3: 'screen and (max-width: 540px)',
-    bp4: 'screen and (min-width: 1024px)',
+    bp1: '(min-width: 640px)',
+    bp2: '(min-width: 768px)',
+    bp3: '(min-width: 1024px)',
   },
 })
