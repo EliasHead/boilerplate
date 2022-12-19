@@ -9,7 +9,7 @@ export const globalStyles = globalCss({
 
   html: {
     /* a cada 1rem será considera 10px */
-    fontSize: '50%',
+    fontSize: '62.5%',
   },
 
   body: {

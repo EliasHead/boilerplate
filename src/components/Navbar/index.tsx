@@ -13,7 +13,7 @@ import logo from '../../../public/logo-react.svg'
 import NavItem from '../NavItem'
 import { useState } from 'react'
 
-export default function Navbar() {
+export function Navbar() {
   const [navActive, setNavActive] = useState(false)
   const [activeIdx, setActiveIdx] = useState(-1)
 
