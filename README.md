@@ -10,9 +10,9 @@
 Run the following command on your local environment:
 
 ```
-git clone --depth=1 https://github.com/ixartz/Next-js-Boilerplate.git my-project-name
-cd my-project-name
-npm install
+$ yarn create next-app my-app -e https://github.com/wutali/nextjs-netlify-blog-template
+cd my-app
+yarn
 ```
 
 Then, you can run locally in development mode with live reload:
